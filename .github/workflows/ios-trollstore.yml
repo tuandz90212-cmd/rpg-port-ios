@@ -1,0 +1,45 @@
+name: Build iOS IPA (TrollStore)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "RPG Maker MZ Framework for Xcode 12/**"
+      - "www/**"
+      - ".github/workflows/ios-trollstore.yml"
+
+jobs:
+  build:
+    runs-on: macos-13
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build unsigned archive
+        run: |
+          set -euo pipefail
+          xcodebuild -project "RPG Maker MZ Framework for Xcode 12.xcodeproj" \
+            -scheme "RPG Maker MZ Framework for Xcode 12" \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -archivePath build/App.xcarchive \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            clean archive
+
+      - name: Package IPA
+        run: |
+          set -euo pipefail
+          APP_NAME="RPG Maker MZ Framework for Xcode 12"
+          APP_PATH="build/App.xcarchive/Products/Applications/${APP_NAME}.app"
+          mkdir -p build/Payload
+          cp -R "$APP_PATH" "build/Payload/"
+          (cd build && /usr/bin/zip -r "DailyLives-TrollStore.ipa" Payload)
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TrollStore-IPA
+          path: build/DailyLives-TrollStore.ipa

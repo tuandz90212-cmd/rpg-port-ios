@@ -1,0 +1,45 @@
+Text that appears outside of the <quest></quest> tags will not display anywhere and can be used for notes if required.
+
+// <quest id:Name of Quest|difficulty|catId>
+// OBJECTIVES separated by commas (leave this blank to not use objectives for a quest)
+// RESOLUTIONS separated by commas use | for line breaks (leave this blank if not using resolutions for a quest)
+// quest description
+// quest description
+// quest description
+// </quest>
+
+<quest 1:Cứu Thế giới!|1|0>
+Tìm \c[2]Hồng Ngọc Rỗng, Mang hồng ngọc đến cho cô tiên hồng
+Ờ... cô tiên đã lừa chúng ta,có một cách giải quyết khác,có một cách giải quyết khác
+Nàng tiên hồng đã giao cho bạn 
+một nhiệm vụ khó khăn
+là giải cứu toàn bộ thế giới!
+
+Đây sẽ là một câu chuyện sử thi 
+về nỗi đau, lòng dũng cảm 
+và những thứ tương tự.
+</quest>
+
+
+<quest 2:Nàng tiên mất tích|2|1>
+
+
+Mang em gái của nàng tiên tóc vàng
+đến cho cô ấy. Đúng rồi, nhiêu đó thôi. 
+Không có nhiều đâu.
+
+Dòng mục tiêu của nhiệm vụ này trống
+nên chúng hoàn toàn không xuất hiện
+bên dưới.
+</quest>
+
+<quest 3:Danh sách việc cần làm của nàng tiên|3|1>
+Đuổi gà,Mở cổng,Mang sô cô la tiên
+
+Nàng tiên có một danh sách 
+các công việc nhỏ để bạn làm
+giúp cô ấy.
+
+Tôi đoán đây là cách 
+để cứu thế giới?
+</quest>

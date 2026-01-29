@@ -1,0 +1,308 @@
+Text that appears outside of the <quest></quest> tags will not display anywhere and can be used for notes if required.
+
+// <quest id:Name of Quest|difficulty|catId>
+// OBJECTIVES separated by commas (leave this blank to not use objectives for a quest)
+// RESOLUTIONS separated by commas use | for line breaks (leave this blank if not using resolutions for a quest)
+// quest description
+// quest description
+// quest description
+// </quest>
+
+<quest 1:Ngày giặt ủi|1|3>
+Phòng bạn,\C[20]Phòng Daisy\C[0],\C[2]Phòng Anna\C[0],Bỏ quần áo vào giỏ trong phòng tắm
+\C[10]Bạn đã nhặt quần áo\C[0]
+Giúp \C[20]Dì Daisy\C[0]
+nhặt quần áo bẩn
+
+\C[16]Phần thưởng\C[0]
+\C[3]Tình cảm\C[0] của \C[20]Daisy\C[0]
+</quest>
+
+
+<quest 2:Vắt sữa bò|1|3>
+\c[1]\v[46]/12\c[0] Chai sữa\I[281]
+
+Giúp \C[2]Anna\C[0] vắt sữa bò 
+và đưa sữa cho cô ấy
+
+\C[2]Anna\C[0] ở bên ngoài nhà kho lúc
+\c[20]4 PM\c[0] - \c[20]6 PM\c[0]
+
+\C[16]Phần thưởng\C[0]
+\C[3]Tình cảm\C[0] của \C[2]Anna\C[0]
+</quest>
+
+<quest 3:Trộm đáp án bài kiểm tra|2|1>
+Đáp án bài kiểm tra
+\C[10]Đáp án đã hết hạn\C[0]
+
+Giúp \C[22]Theo\C[0] bằng cách lấy trộm đáp án 
+bài kiểm tra
+
+Câu trả lời nằm trên bàn
+trong \C[14]Văn phòng của cô Emmi\C[0] vào \c[1]Thứ năm\c[0]
+
+\C[16]Phần thưởng\C[0]
+\C[3]Tình bạn\C[0] của \C[22]Theo\C[0]
+*Đang tiến hành*
+</quest>
+
+
+<quest 4:Đã sửa tấm ván bị hỏng|1|1>
+Nói chuyện với \C[4]Susan\C[0],Đã sửa tấm ván 
+bị hỏng
+
+\C[30]Mrs. Adeera\C[0] yêu cầu bạn sửa
+tấm ván bị hỏng
+
+Nó ở tầng 2
+đến hành lang văn phòng giáo viên
+
+\C[16]Phần thưởng\C[0]
+\C[3]Tình cảm\C[0] của \C[30]Mrs. Adeera\C[0]
+</quest>
+
+<quest 5:Trồng trọt|1|0>
+Người bạn mới từ thế giới khác,
+Bất kỳ loại rau nào trong túi
+
+\C[20]Dì Daisy\C[0] dạy bạn cách
+trồng trọt
+
+Đã đến lúc lấy thứ gì đó ra khỏi
+đất
+
+\C[16]Phần thưởng\C[0]
+Chúc mừng!
+Bạn thực hiện bước đầu tiên để trở thành
+một Nông dân thực thụ!
+</quest>
+
+<quest 6:Mật ong|3|2>
+Xây nhà ong\I[191]
+
+Bây giờ bạn đã có thể xây dựng 
+Ngôi nhà ong đầu tiên của mình
+
+Thu thập đủ nguyên liệu và làm một cái tại
+Bàn làm việc của bạn
+
+\C[16]Phần thưởng\C[0]
+Bzz Lover
+</quest>
+
+<quest 7:Trang trại ong|5|2>
+\v[342]/3 Nhà ong
+
+Vàng lỏng!!!
+
+\C[16]Phần thưởng\C[0]
+Bzz Keeper
+</quest>
+
+<quest 8:Sách từ thế giới khác|1|0>
+Sách viễn tưởng\I[231]
+
+\C[14]Ms. Emmi\C[0] háo hức với một 
+cuốn sách mới mà cô ấy chưa từng đọc trước đây
+
+\C[3]Pixie\c[0] sẽ có cách
+
+\C[16]Phần thưởng\C[0]
+Tình cảm của \C[14]Ms. Emmi\C[0]
+</quest>
+
+<quest 9:Chấm điểm và thư giãn|1|0>
+Trà sữa trân châu\I[239]
+
+Hãy dành thời gian với \C[14]Ms. Emmi\C[0] 
+và một ít đồ ăn nhẹ
+
+Cửa hàng tiện lợi
+
+\C[16]Phần thưởng\C[0]
+Tình cảm của \C[14]Ms. Emmi\C[0]
+</quest>
+
+<quest 10:Vết bẩn lạ|1|0>
+Cà phê\I[238]
+
+Vụ án bí ẩn
+
+Cửa hàng tiện lợi
+
+\C[16]Phần thưởng\C[0]
+Thám tử
+</quest>
+
+<quest 11:Nhận tiền|1|0>
+
+
+\C[27]Mabel\C[0] muốn đóng vai nạn nhân
+
+Lớp học vào \c[20]Buổi tối\c[0]
+
+\C[16]Phần thưởng\C[0]
+Được trả tiền?
+</quest>
+
+<quest 12:Âm thanh lạ vào ban đêm|1|0>
+
+
+\C[27]Mabel\C[0] nghe thấy một âm thanh lạ
+vào ban đêm và nó làm cô ấy sợ hãi
+
+Khai giảng vào \c[20]Buổi tối\c[0]
+
+\C[16]Phần thưởng\C[0]
+Tình cảm của \C[27]Mabel\C[0]
+</quest>
+
+<quest 13:Hậu trường|3|0>
+Tìm kiếm sự giúp đỡ,Hậu trường
+
+Xây dựng hậu trường
+cho \C[27]Mabel\C[0]
+
+Hãy tìm sự giúp đỡ, có thể ai đó 
+biết cách xây dựng và chế tạo
+
+\C[16]Phần thưởng\C[0]
+Tình cảm của \C[27]Mabel\C[0]
+</quest>
+
+<quest 14:Đút vào|1|0>
+
+
+\C[27]Mabel\C[0] không muốn làm chuyện đó
+vì cái ấy của bạn quá lớn
+
+Cần \c[14]Bụi Tiny Miny Mini\i[317]\c[0] từ \C[3]nàng Tiên\c[0] 
+để làm cho nó nhỏ lại
+
+\C[16]Phần thưởng\C[0]
+Hạnh phúc
+</quest>
+
+<quest 15:Mua chất tẩy|1|1>
+Chất tẩy\i[197]
+
+\C[10]Mrs. Kate\C[0] bảo bạn mua Chất tẩy, 
+họ cần nó để làm sạch hồ bơi
+
+Cửa hàng tiện lợi
+
+\C[16]Phần thưởng\C[0]
+Trơn
+</quest>
+
+<quest 16:Bơi lội giỏi hơn|3|0>
+
+
+Hãy như cá gặp nước
+
+Mong được sự giúp đỡ từ \C[10]Mrs. Kate\C[0]
+để bơi tốt hơn
+
+\C[16]Phần thưởng\C[0]
+Kỹ năng bơi lội\i[91]
+</quest>
+
+<quest 17:Massage|1|0>
+Dầu nóng\i[214]
+
+Người Nina đơ và cứng quá,
+giúp cô ấy bằng cách mát-xa cho cô ấy
+
+Cửa hàng Tuuku
+
+\C[16]Phần thưởng\C[0]
+Trơn trượt như cá
+</quest>
+
+<quest 18:Camera giấu kín|1|0>
+Camera giấu kín\i[198]
+
+Thiên đường quay lén
+
+Cửa hàng Tuuku
+
+\C[16]Phần thưởng\C[0]
+Bộ điều khiển không dây
+</quest>
+
+<quest 19:An ủi Nina|1|0>
+
+
+Đi đến bãi biển và tìm một cái gì đó
+để an ủi Nina
+
+Đi theo con đường ở góc dưới bên trái 
+trang trại của Daisy
+
+\C[16]Phần thưởng\C[0]
+Tình cảm \C[12]Nina\C[0]
+</quest>
+
+<quest 20:Câu lạc bộ điêu khắc tượng|1|0>
+
+
+Kiểm tra Câu lạc bộ điêu khắc của Anna
+sau giờ học
+
+Sau khi học trên lớp
+
+\C[16]Phần thưởng\C[0]
+Tình cảm của \C[2]Anna\C[0]
+</quest>
+
+<quest 21:Huấn luyện võ thuật|1|0>
+
+
+Tham gia khóa đào tạo cường độ cao để
+mài giũa kỹ năng và khả năng phục hồi của bạn
+\c[14]*WIP Future update*\c[0]
+
+Tìm kiếm một bậc thầy
+để huấn luyện võ thuật
+
+\C[16]Phần thưởng\C[0]
+Gia nhập võ đường
+</quest>
+
+<quest 22:Cuộc gọi cuối cùng cho Clay|3|0>
+Hãy ghé thăm \C[3]Pixie\c[0], tìm kiếm trợ giúp từ \C[3]Elphaba\C[0]
+
+Cần tìm giải pháp thay thế
+cho dự án tượng lớn
+
+\C[16]Phần thưởng\C[0]
+Vật liệu đặc biệt
+</quest>
+
+\C[16]Phần thưởng\C[0]
+Gia nhập võ đường
+</quest>
+
+<quest 23:Săn thảo mộc|3|3>
+\i[181]Thảo dược \c[1]\v[351]\c[0]/9
+
+Giúp Elphaba bằng cách 
+thu thập các loại thảo mộc cô ấy cần
+
+Lập nhóm với Maleena để được hỗ trợ
+
+\C[16]Phần thưởng\C[0]
+Một món quà đặc biệt, \c[14]500\i[172] 
+</quest>
+
+<quest 24:Đồ chơi bị mất|1|1>
+
+
+Thứ bị đánh cắp
+
+Tham quan tủ đựng đồ thể dục vào ban đêm
+
+\C[16]Phần thưởng\C[0]
+Bí ẩn hé lộ
+</quest>
